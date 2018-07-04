@@ -1,0 +1,18 @@
+{
+    "name": "imper86/dpd-wsdl-api",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "imper",
+            "email": "me@imper.info"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "wsdl2phpgenerator/wsdl2phpgenerator": "^3.4"
+    },
+    "autoload": {
+        "psr-4": { "Imper86\\DpdWsdlApi\\": "src/Imper86/DpdWsdlApi" }
+    }
+}
